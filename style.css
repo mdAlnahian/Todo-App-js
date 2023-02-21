@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    width: 350px;
+    height: 600px;
+    border: 3px solid goldenrod;
+    border-radius: 6px;
+    padding: 12px;
+    /* background-color: rgb(215, 208, 236); */
+    background-color: #fff;
+    overflow-y:scroll ;
+}
+
+.app::-webkit-scrollbar {width: 0 !important}
+
+#addNew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(171,206,161,0.35);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.fa-plus{
+    background-color: #abcea1;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#tasks {
+    display: grid;
+    gap: 14px;
+}
+
+#tasks div{
+    background-color: #e2eede;
+    padding: 6px;
+    border: 2px solid gold;
+    border-radius: 2px;
+    display: grid;
+    gap: 10px;
+    /* margin-bottom: 5px; */
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options i {
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
